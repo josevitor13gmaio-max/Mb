@@ -1,4 +1,16 @@
-name: ...: RDP
+name: Teste
+
+on:
+  push:
+    branches:
+      - principal
+
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Teste
+        run: echo "Funcionou!"name: ...: RDP
 
 em:
   workflow_dispatch:
